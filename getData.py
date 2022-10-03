@@ -20,7 +20,7 @@ def getDataTxt():
 def getDeclarations():
     arrayDatos = []
     for line in getDataTxt():
-        if line.startswith("int") or line.startswith("String") or line.startswith("float") or line.startswith("double")  or line.startswith("char") or line.startswith("boolean"):
+        if line.startswith("int") or line.startswith("String") or line.startswith("float") or line.startswith("double")  or line.startswith("char") or line.startswith("boolean") or line.startswith("long") or line.startswith("short") or line.startswith("byte"):
             if line.endswith(";"):
                 i = line.split( )[1]
                 arrayDatos.append(i.split(";")[0])
