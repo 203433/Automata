@@ -4,7 +4,10 @@ public class OperacionesApp {
  
         //Declaramos las variables
         int num1 = 10;
-        int num2 = 5;
+        int 1num2 = 5;
+        int void;
+        int void;
+
  
         /*Realizamos las operaciones.
          * Tambien lo podemos guardar el resultado en variables. */
